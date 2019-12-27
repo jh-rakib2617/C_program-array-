@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int array[100]={20,40,10,3,1,9,8,7,6};
+    int j,x,y=0;
+    printf("insert the value for search");
+    scanf("%d",&x);
+    for(j = 0; j< 100; j++)
+    {
+        if(x == arr[j])
+        {
+            y = 1;
+            break;
+        }
+
+    }
+    if(y)
+        printf("find the index %d ",j);
+    else
+        printf("Value not find");
+    return 0;
+}
