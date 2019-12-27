@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int array[100]={62,54,23,4,9,3,1,8,57,60};
+    int array[100];
+    array[]={62,54,23,4,9,3,1,8,57,60};
     int j;
     for(j = 0; j<10; j++)
     {
