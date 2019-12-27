@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int array[100]={3,4,6,9,12,14,7,8,10,19};
+    int j,x;
+    printf("Enter a index delete :  ");
+    scanf("%d",&x);
+
+
+    for(j=0; j< 99; j++)
+    {
+       if(j>=x)
+       {
+           array[j]=array[j+1];
+       }
+    }
+    for(j = 0; j< 100; j++)
+    {
+        printf("%d ",array[j]);
+    }
+    return 0;
+}
