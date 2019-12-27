@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int array[100]={4,5,6,2,1,9,8,7,3,10};
+    int j;
+    printf("insert value for index 5: ");
+    scanf("%d",&array[5]);
+    for(j= 0; j<100; j++)
+    {
+        printf("%d ",array[j]);
+    }
+    return 0;
+}
